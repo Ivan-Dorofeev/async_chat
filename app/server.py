@@ -14,10 +14,8 @@ class ServerProtocol(asyncio.Protocol):
         self.server = server
 
     def data_received(self, data: bytes):
-        print(data)
-
         decoded = data.decode()
-
+        print(decoded)
         if self.login is not None:
             self.send_message(decoded)
         else:
@@ -60,7 +58,7 @@ class Server:
         coroutine = await loop.create_server(
             self.build_protocol,
             '127.0.0.1',
-            8888
+            9898
         )
 
         print("Сервер запущен ...")

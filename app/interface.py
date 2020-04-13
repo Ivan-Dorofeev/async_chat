@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'interface.ui'
+## Form generated from reading UI file 'my_untitled.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.14.1
 ##
@@ -20,7 +20,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(372, 645)
+        MainWindow.resize(536, 779)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.verticalLayout = QVBoxLayout(self.centralwidget)
@@ -50,8 +50,8 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
-        self.message_box.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Connecting...", None))
-        self.message_input.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Type your message here...", None))
+        self.message_box.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Connecting", None))
+        self.message_input.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Your message here", None))
         self.message_button.setText(QCoreApplication.translate("MainWindow", u"Send", None))
     # retranslateUi
 
